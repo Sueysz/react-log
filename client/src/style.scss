@@ -1,20 +1,25 @@
 $lightGreen : #b9e7e7;
 
 
-// html,body{
-//     display: flex;
-//     margin: 0;
-//     padding: 0;
-//     width: 100vw;
-//     height: 100vh;
-    
-// }
+html,body{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
 
 .app{
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+
+
     .container{
         width: 1024px;
+        padding: 0;
+        margin: 0;
 
         .link{
             text-decoration: none;
@@ -28,9 +33,6 @@ $lightGreen : #b9e7e7;
                 align-items: center;
                 justify-content: center;
                 height: 100vh;
-                width: 100vw;
-                background-color: #b9e7e7;
-            
 
             h1{
                 font-size: 20px;
